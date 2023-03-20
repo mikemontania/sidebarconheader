@@ -1,0 +1,72 @@
+ 
+  
+.section {
+  display: flex;
+  align-items: center; 
+}
+.sectionmenu {
+  display: flex;
+   justify-content: flex-start;
+   align-items: center; 
+ }
+
+.siteHeader__item {
+  padding: 5px 15px;
+ }
+ 
+ .menu{
+  margin: 5px;
+  font-size: 25px;
+ }
+
+ 
+
+
+ img {
+  max-width: 100%;
+  height: auto;
+  
+} 
+.imgcontent {
+   display: flex;
+   cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  }
+ .Logocontent { 
+   display: flex;
+  justify-content: left;
+   align-items: center; 
+ }
+ 
+
+.gridactivo{grid-template-columns: 300px auto;
+}
+
+.gridinactivo{grid-template-columns: 90px auto;}
+ 
+
+
+
+
+
+.ocultarTexto{
+    display:none;
+}
+.mostrarTexto{
+   display:block;
+  
+}
+
+
+.transform0{
+  transform: scale(0.7);
+ }
+
+
+.transform1{
+  transform: scale(1.5);
+}
+ 
